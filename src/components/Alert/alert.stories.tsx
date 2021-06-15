@@ -20,7 +20,7 @@ const stylesAlert = () => {
 const descAlert = () => {
   return <Alert title="提示标题欧亲" description="this is a long description" onClose={action('closed')}></Alert>
 }
-storiesOf('第四章作业：Alert', module)
-  .add('Alert', defaultAlert)
+storiesOf('Alert组件', module)
+  .add('基础的 Alert', defaultAlert)
   .add('不同样式的 Alert', stylesAlert)
   .add('添加描述的 Alert', descAlert)

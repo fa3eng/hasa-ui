@@ -22,7 +22,7 @@ const buttonWithType = () => (
     <Button btnType="link" href="https://google.com"> link button </Button>
   </>
 )
-storiesOf('第四章：Button', module)
-  .add('Button', defaultButton)
+storiesOf('Button 组件', module)
+  .add('基本的 Button', defaultButton)
   .add('不同尺寸的 Button', buttonWithSize)
   .add('不同类型的 Button', buttonWithType)

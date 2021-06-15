@@ -42,7 +42,7 @@ const disabledSelect = () => (
   </Select>  
 )
 
-storiesOf('第九章作业：Select', module)
-  .add('Select', defaultSelect)
+storiesOf('Select 组件', module)
+  .add('默认的 Select', defaultSelect)
   .add('支持多选的 Select', multipleSelect)
   .add('被禁用的 Select', disabledSelect)
